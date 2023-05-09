@@ -1,0 +1,56 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*estilos del body*/
+
+body{
+    background-color: #ffffa1;
+}
+
+/*estilo del header*/
+
+h1{
+    color: #faa440;
+    text-align: center;
+    margin: 50px;
+    font-size: 3rem;
+}
+
+/*estilos del main*/
+
+h2{
+    color: #faa440;
+    font-size: 2rem;
+    text-align: center;
+    margin: 50px;
+}
+
+p{
+    color: #8a211d;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+label{
+    color: #8a211d;
+    font-size: 1.1rem;
+    padding: 5px;
+
+
+}
+
+button{
+    font-size: 1.1rem;
+    margin: 10px;
+}
+
+/*estilos del footer*/
+
+footer{
+    color: #faa440;
+    text-align: center;
+}
