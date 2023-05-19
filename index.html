@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Simulador de Inversiones</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Simula tu inversion
+        </h1>
+    </header>
+    <main>
+        <h2>Registro</h2>
+        <form class="registro" action="">
+            <div class="">
+                <label for="nombreCompleto">Nombre Completo</label>
+                <input type="text" id="nombreCompleto">   
+                <label for="dni">Dni</label>
+                <input type="number" id="dni">                
+            </div>
+            <div class="buttonIngreso">
+                <button class="" id="botonGuardar">Guardar</button>
+            </div>
+        </form>
+
+        <h3>
+            Proba nuestro simulador
+        </h3>
+        <p>
+            Completa los datos para comprobar cuanta ganaras al finalizar tu inversion en plazo fijo con la nueva tasa del BCRA.
+        </p>
+            
+        <label for="import">Importe</label>  
+        <input type="number" id="import">
+        <label for="days">Cantidad de Dias</label>
+        <input type="number" id="days">
+        <button onclick="calculoDeInversion()">Calcular</button>
+        <button id="resetear">Resetear</button>
+        <p id="profit"></p>
+
+
+    </main>
+    <footer>
+            Todos los derechos reservados
+    </footer>
+    
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
